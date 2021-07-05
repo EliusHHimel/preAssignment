@@ -8,7 +8,7 @@ body{
     
 }
 h1{
-    font-size: 50px;
+    font-size: 40px;
 }
 h2{
     font-size: 30px;
@@ -17,9 +17,11 @@ nav{
     border: 10px black;
 }
 
-.first_section{
+.first_section, .second_section{
     display: flex;
+    margin-top: 20px;
 }
+
 .greetings{
     font-family: 'Uchen', serif;
 }
@@ -35,8 +37,11 @@ nav{
     padding: 5%;
 }
 .half-width img{
-    width: 120%;
+    width: 105%;
     margin-top: -100px;
+}
+.first_section .half-width img{
+    width: 135%;
 }
 .hire_button{
     text-decoration: none;
@@ -63,14 +68,56 @@ nav{
     margin-right: 8px;
     font-family: 'Uchen', serif;
 }
-.empty-div{
-    width: 50%;
-    margin-left: 230px;
-    margin-right: 0;
-}
+
 p{
     text-align: justify;
     margin-bottom: 20px;
     color: thistle;
     font-family: 'Montserrat', sans-serif;
+}
+.download_button{
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(#43c4ff, #4400ff);
+    padding: 10px 40px;
+    border: 2px solid black;
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+.work_sample{
+    display: flex;
+    margin-right: 30px;
+    width: 510px;
+    height: 290px;
+}
+.img-one{
+    margin-right: 20px;
+    border-left: 7px solid blue;
+    box-shadow: 10px 10px 40px black;
+}
+.img-two{
+    margin-right: 20px;
+    border-left: 7px solid blue;
+    box-shadow: 10px 10px 40px black;
+}
+.img-three{
+    background-color: #e4d7c7;
+    border-left: 7px solid blue;
+    box-shadow: 10px 10px 40px black;
+    margin-right: 30px;
+}
+.section_four{
+    text-align: center;
+}
+.section_four p{
+    height: 200px;
+    width: 250px;
+    margin-top: 20px;
+    margin-left: 40%;
+}
+.section_four h3{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: -20px;
 }
